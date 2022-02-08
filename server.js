@@ -70,6 +70,6 @@ app.get('./api/animals/:id', (req, res) => {
 })
 
 //tell the server to listen for requests
-app.listen(ProgressEvent, () => {
+app.listen(PORT, () => {
     console.log(`API server now on port ${PORT}!`);
 });
